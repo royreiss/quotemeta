@@ -1,3 +1,3 @@
 module.exports = function (str) {
-    return String(str).replace(/(\[|\]|\{|\}|\+|\*|\?|\(|\)|\\|\$|\^)/g, '\\$1');
+    return String(str).replace(/(\[|\]|\{|\}|\+|\*|\?|\(|\)|\\|\$|\^|\.)/g, '\\$1');
 };
